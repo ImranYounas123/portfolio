@@ -19,7 +19,7 @@ const Home = () => {
             <About  aboutData={data.about} name={data.main.name} />
             <Skills skillData={data.skills} />
             <Projects projectsData={data.projects} />
-            <Experiences experienceData={data.experiences} educationData={data.educations} />
+            <Experiences experienceData={data.experiences} educationData={data.educations} testonomialData = {data.testimonials} />
             <Contact />
             {/* <CallToAction /> */}
             <Footer socials={data.socials} name={data.main.name} />
